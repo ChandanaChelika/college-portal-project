@@ -1,0 +1,34 @@
+# 🎓 College Project Access Portal - Backend
+
+This is the backend for a College Project Portal developed using *Node.js, **Express.js, and **MongoDB Atlas*.  
+It allows students to:
+- View project details
+- Verify their identity using student ID cards via OCR
+- Securely access project data based on college affiliation
+
+---
+
+## 🔧 Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- Tesseract.js (OCR)
+- Multer (file uploads)
+- dotenv
+
+---
+
+## 📦 API Endpoints
+
+### 📁 Project APIs
+- GET /api/projects – Get all project details
+
+### 📄 Student Verification (OCR)
+- POST /api/verify/verify-id  
+  Upload a student ID card and get the college name using OCR.
+
+---
+
+## 📂 Project Structure
